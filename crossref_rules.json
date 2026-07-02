@@ -1,0 +1,977 @@
+{
+  "acdc": {
+    "Input Leakage Current": {
+      "aliases": [
+        "Input Leakage Current",
+        "ILI",
+        "I LI",
+        "Input Leakage",
+        "Leakage Current",
+        "IOZ"
+      ],
+      "units": [
+        "uA",
+        "µA",
+        "μA"
+      ]
+    },
+    "Output Leakage Current": {
+      "aliases": [
+        "Output Leakage Current",
+        "ILO",
+        "I LO",
+        "Output Leakage",
+        "IOZ"
+      ],
+      "units": [
+        "uA",
+        "µA",
+        "μA"
+      ]
+    },
+    "stanby_current": {
+      "aliases": [
+        "Standby Current",
+        "Stand-by Current",
+        "standby current",
+        "ICC1",
+        "ICC2",
+        "ICC standby",
+        "Standby"
+      ],
+      "units": [
+        "uA",
+        "µA",
+        "μA",
+        "mA"
+      ]
+    },
+    "deep_power_down_current": {
+      "aliases": [
+        "Deep Power-Down Current",
+        "Deep Power Down Current",
+        "DPD Current",
+        "ICC DPD",
+        "Ultra-Deep Power-Down Current"
+      ],
+      "units": [
+        "uA",
+        "µA",
+        "μA"
+      ]
+    },
+    "read_current(Single)": {
+      "aliases": [
+        "Single Read Current",
+        "Read Current",
+        "Active Read Current",
+        "ICC Read",
+        "ICC3",
+        "Serial Read"
+      ],
+      "units": [
+        "mA",
+        "uA",
+        "µA",
+        "μA"
+      ]
+    },
+    "read_current(Duad)": {
+      "aliases": [
+        "Dual Read Current",
+        "Dual Output",
+        "Dual I/O",
+        "Dual IO",
+        "ICC Read"
+      ],
+      "units": [
+        "mA",
+        "uA",
+        "µA",
+        "μA"
+      ]
+    },
+    "read_current(Quad)": {
+      "aliases": [
+        "Quad Read Current",
+        "Quad Output",
+        "Quad I/O",
+        "Quad IO",
+        "Quad Read",
+        "ICC Read"
+      ],
+      "units": [
+        "mA",
+        "uA",
+        "µA",
+        "μA"
+      ]
+    },
+    "read_current(DTR Quad)": {
+      "aliases": [
+        "DTR Quad",
+        "DDR Quad",
+        "DTR Read Current",
+        "DDR Read Current"
+      ],
+      "units": [
+        "mA",
+        "uA",
+        "µA",
+        "μA"
+      ]
+    },
+    "program_current\nWRSR_current": {
+      "aliases": [
+        "Program Current",
+        "Page Program Current",
+        "Write Status Register Current",
+        "WRSR Current",
+        "ICC Program"
+      ],
+      "units": [
+        "mA",
+        "uA",
+        "µA",
+        "μA"
+      ]
+    },
+    "erase_current": {
+      "aliases": [
+        "Erase Current",
+        "Sector Erase Current",
+        "Block Erase Current",
+        "Chip Erase Current",
+        "ICC Erase"
+      ],
+      "units": [
+        "mA",
+        "uA",
+        "µA",
+        "μA"
+      ]
+    },
+    "Input Low Voltage": {
+      "aliases": [
+        "Input Low Voltage",
+        "VIL",
+        "V IL"
+      ],
+      "units": [
+        "V"
+      ]
+    },
+    "Input High Voltage": {
+      "aliases": [
+        "Input High Voltage",
+        "VIH",
+        "V IH"
+      ],
+      "units": [
+        "V"
+      ]
+    },
+    "Output Low Voltage": {
+      "aliases": [
+        "Output Low Voltage",
+        "VOL",
+        "V OL"
+      ],
+      "units": [
+        "V"
+      ]
+    },
+    "Output High Voltage": {
+      "aliases": [
+        "Output High Voltage",
+        "VOH",
+        "V OH"
+      ],
+      "units": [
+        "V"
+      ]
+    },
+    "fC1(Serial Clock Frequency For: all commands except Read (03H))": {
+      "aliases": [
+        "Clock Frequency",
+        "Serial Clock Frequency",
+        "fC",
+        "f C",
+        "SCLK frequency",
+        "Frequency"
+      ],
+      "units": [
+        "MHz"
+      ]
+    },
+    "fC2(Serial Clock Frequency For: DTR Read)": {
+      "aliases": [
+        "DTR Clock Frequency",
+        "DDR Clock Frequency",
+        "DTR",
+        "fC2"
+      ],
+      "units": [
+        "MHz"
+      ]
+    },
+    "fR(Serial Clock Frequency For: Read (03H))": {
+      "aliases": [
+        "Read Clock Frequency",
+        "Read Frequency",
+        "Read (03h)",
+        "fR"
+      ],
+      "units": [
+        "MHz"
+      ]
+    },
+    "tCLH(Serial Clock High Time)": {
+      "aliases": [
+        "Serial Clock High Time",
+        "Clock High Time",
+        "tCLH",
+        "tCH"
+      ],
+      "units": [
+        "ns"
+      ]
+    },
+    "tCLL(Serial Clock Low Time)": {
+      "aliases": [
+        "Serial Clock Low Time",
+        "Clock Low Time",
+        "tCLL",
+        "tCL"
+      ],
+      "units": [
+        "ns"
+      ]
+    },
+    "tCLCH(Serial Clock Rise/Fall Time (Slew Rate))": {
+      "aliases": [
+        "Clock Rise Time",
+        "Rise Time",
+        "tCLCH",
+        "tR"
+      ],
+      "units": [
+        "ns",
+        "V/ns"
+      ]
+    },
+    "tCHCL(Serial Clock Rise/Fall Time (Slew Rate))": {
+      "aliases": [
+        "Clock Fall Time",
+        "Fall Time",
+        "tCHCL",
+        "tF"
+      ],
+      "units": [
+        "ns",
+        "V/ns"
+      ]
+    },
+    "tSLCH(CS# Active Setup Time)": {
+      "aliases": [
+        "CS# Active Setup Time",
+        "CS# Setup Time",
+        "Chip Select Setup",
+        "tSLCH",
+        "tCSS"
+      ],
+      "units": [
+        "ns"
+      ]
+    },
+    "tCHSH(CS# Active Hold Time)": {
+      "aliases": [
+        "CS# Active Hold Time",
+        "CS# Hold Time",
+        "tCHSH",
+        "tCSH"
+      ],
+      "units": [
+        "ns"
+      ]
+    },
+    "tCLSH(CS# Active Hold Time)": {
+      "aliases": [
+        "CS# Active Hold Time",
+        "tCLSH"
+      ],
+      "units": [
+        "ns"
+      ]
+    },
+    "tSHCH(CS# Not Active Setup Time)": {
+      "aliases": [
+        "CS# Not Active Setup Time",
+        "CS# High Setup",
+        "tSHCH"
+      ],
+      "units": [
+        "ns"
+      ]
+    },
+    "tCHSL(CS# Not Active Hold Time)": {
+      "aliases": [
+        "CS# Not Active Hold Time",
+        "tCHSL"
+      ],
+      "units": [
+        "ns"
+      ]
+    },
+    "tSHSL(CS# High Time)": {
+      "aliases": [
+        "CS# High Time",
+        "CS High Time",
+        "tSHSL",
+        "tCS"
+      ],
+      "units": [
+        "ns"
+      ]
+    },
+    "tSHQZ(Output Disable Time)": {
+      "aliases": [
+        "Output Disable Time",
+        "tSHQZ",
+        "tDIS"
+      ],
+      "units": [
+        "ns"
+      ]
+    },
+    "tCLQX(Output Hold Time)": {
+      "aliases": [
+        "Output Hold Time",
+        "tCLQX",
+        "tHO"
+      ],
+      "units": [
+        "ns"
+      ]
+    },
+    "tCLQV(Clock Transient To Output Valid)": {
+      "aliases": [
+        "Clock to Output Valid",
+        "Output Valid",
+        "tCLQV",
+        "tV"
+      ],
+      "units": [
+        "ns"
+      ]
+    },
+    "tDVCH(Data In Setup Time)": {
+      "aliases": [
+        "Data In Setup Time",
+        "Data Setup Time",
+        "tDVCH",
+        "tDS"
+      ],
+      "units": [
+        "ns"
+      ]
+    },
+    "tCHDX(Data In Hold Time)": {
+      "aliases": [
+        "Data In Hold Time",
+        "Data Hold Time",
+        "tCHDX",
+        "tDH"
+      ],
+      "units": [
+        "ns"
+      ]
+    },
+    "tW(write status register Cycle Time)": {
+      "aliases": [
+        "Write Status Register Cycle Time",
+        "Write Status Register",
+        "tW"
+      ],
+      "units": [
+        "ms",
+        "us",
+        "µs",
+        "μs"
+      ]
+    },
+    "byte program(First)": {
+      "aliases": [
+        "Byte Program",
+        "First Byte Program",
+        "tBP"
+      ],
+      "units": [
+        "us",
+        "µs",
+        "μs",
+        "ms"
+      ]
+    },
+    "byte program": {
+      "aliases": [
+        "Byte Program",
+        "tBP"
+      ],
+      "units": [
+        "us",
+        "µs",
+        "μs",
+        "ms"
+      ]
+    },
+    "page program(256byte)": {
+      "aliases": [
+        "Page Program",
+        "256 byte",
+        "256-byte",
+        "tPP"
+      ],
+      "units": [
+        "ms",
+        "us",
+        "µs",
+        "μs"
+      ]
+    },
+    "page program(512byte)": {
+      "aliases": [
+        "Page Program",
+        "512 byte",
+        "512-byte",
+        "tPP"
+      ],
+      "units": [
+        "ms",
+        "us",
+        "µs",
+        "μs"
+      ]
+    },
+    "4k_erase": {
+      "aliases": [
+        "4KB Sector Erase",
+        "4 Kbyte",
+        "4KB Erase",
+        "Subsector Erase",
+        "tSE"
+      ],
+      "units": [
+        "ms",
+        "s"
+      ]
+    },
+    "32k_erase": {
+      "aliases": [
+        "32KB Block Erase",
+        "32KB Erase",
+        "tBE32"
+      ],
+      "units": [
+        "ms",
+        "s"
+      ]
+    },
+    "64k_erase": {
+      "aliases": [
+        "64KB Block Erase",
+        "64KB Erase",
+        "Sector Erase",
+        "tSE",
+        "tBE"
+      ],
+      "units": [
+        "ms",
+        "s"
+      ]
+    },
+    "256K_erase": {
+      "aliases": [
+        "256KB Block Erase",
+        "256KB Erase",
+        "tBE256"
+      ],
+      "units": [
+        "ms",
+        "s"
+      ]
+    },
+    "512Mb bulk erase time": {
+      "aliases": [
+        "Bulk Erase",
+        "Die Erase",
+        "512Mb Bulk",
+        "tBE"
+      ],
+      "units": [
+        "s"
+      ]
+    },
+    "chip_erase": {
+      "aliases": [
+        "Chip Erase",
+        "Bulk Erase",
+        "tCE"
+      ],
+      "units": [
+        "s"
+      ]
+    },
+    "VWI": {
+      "aliases": [
+        "Write Inhibit Voltage",
+        "VWI",
+        "V WI"
+      ],
+      "units": [
+        "V"
+      ]
+    },
+    "VCC Power On ramp rate": {
+      "aliases": [
+        "VCC Power On ramp rate",
+        "Power On ramp rate",
+        "VCC Ramp"
+      ],
+      "units": [
+        "V/us",
+        "V/µs",
+        "V/μs",
+        "V/ms"
+      ]
+    },
+    "VCC Power Down ramp rate": {
+      "aliases": [
+        "VCC Power Down ramp rate",
+        "Power Down ramp rate"
+      ],
+      "units": [
+        "V/us",
+        "V/µs",
+        "V/μs",
+        "V/ms"
+      ]
+    },
+    "tVSL": {
+      "aliases": [
+        "VCC(min) to CS# Low",
+        "tVSL",
+        "VSL"
+      ],
+      "units": [
+        "us",
+        "µs",
+        "μs",
+        "ms"
+      ]
+    },
+    "tRLRH(Reset Pulse Width)": {
+      "aliases": [
+        "Reset Pulse Width",
+        "RESET# Pulse Width",
+        "tRLRH",
+        "tRP"
+      ],
+      "units": [
+        "ns",
+        "us",
+        "µs",
+        "μs"
+      ]
+    },
+    "tRHSL(Reset Hold time before next Operation)": {
+      "aliases": [
+        "Reset Hold time",
+        "Reset Hold",
+        "tRHSL"
+      ],
+      "units": [
+        "ns",
+        "us",
+        "µs",
+        "μs"
+      ]
+    },
+    "tRB(Reset Recovery Time)": {
+      "aliases": [
+        "Reset Recovery Time",
+        "tRB",
+        "tRST"
+      ],
+      "units": [
+        "us",
+        "µs",
+        "μs",
+        "ms"
+      ]
+    },
+    "tSUS(CS# High To Next Command After Suspend)": {
+      "aliases": [
+        "Suspend Latency",
+        "Suspend",
+        "tSUS"
+      ],
+      "units": [
+        "us",
+        "µs",
+        "μs",
+        "ms"
+      ]
+    },
+    "tRS(Latency Between Resume And Next Suspend)": {
+      "aliases": [
+        "Latency Between Resume",
+        "Resume latency",
+        "tRS"
+      ],
+      "units": [
+        "us",
+        "µs",
+        "μs",
+        "ms"
+      ]
+    },
+    "Suspend latency": {
+      "aliases": [
+        "Suspend latency",
+        "Suspend Latency",
+        "tSUS"
+      ],
+      "units": [
+        "us",
+        "µs",
+        "μs",
+        "ms"
+      ]
+    }
+  },
+  "command_aliases": {
+    "enabale_reset": [
+      "Enable Reset",
+      "Reset Enable",
+      "Software Reset Enable",
+      "RSTEN"
+    ],
+    "reset": [
+      "Reset",
+      "Software Reset",
+      "Reset Memory",
+      "RST"
+    ],
+    "Mode Bit Reset": [
+      "Mode Bit Reset",
+      "MBR"
+    ],
+    "NOP": [
+      "No Operation",
+      "NOP"
+    ],
+    "Legacy Software Reset": [
+      "Legacy Software Reset",
+      "Software Reset"
+    ],
+    "read_manufacture_id": [
+      "Read Manufacturer",
+      "Read Manufacture",
+      "Manufacturer ID",
+      "Read ID"
+    ],
+    "read_manufacture_id_d_io)": [
+      "Dual I/O Read ID",
+      "Dual IO Read ID",
+      "Read Manufacturer/Device ID Dual"
+    ],
+    "read_manufacture_id_q_io)": [
+      "Quad I/O Read ID",
+      "Quad IO Read ID",
+      "Read Manufacturer/Device ID Quad"
+    ],
+    "read_jedec_id": [
+      "Read JEDEC ID",
+      "JEDEC ID",
+      "Read Identification"
+    ],
+    "read_unique_id": [
+      "Read Unique ID",
+      "Unique ID",
+      "Read Unique Identifier"
+    ],
+    "read_sfpd": [
+      "Read SFDP",
+      "SFDP",
+      "Serial Flash Discoverable Parameters"
+    ],
+    "Read Electronic Signature": [
+      "Read Electronic Signature",
+      "RES"
+    ],
+    "READ STATUS REGISTER-1": [
+      "Read Status Register-1",
+      "Read Status Register",
+      "RDSR",
+      "Status Register-1"
+    ],
+    "READ STATUS REGISTER-2": [
+      "Read Status Register-2",
+      "Status Register-2"
+    ],
+    "READ STATUS REGISTER-3": [
+      "Read Status Register-3",
+      "Status Register-3"
+    ],
+    "read_config_register": [
+      "Read Configuration Register",
+      "Configuration Register",
+      "RDCR"
+    ],
+    "READ FLAG STATUS REGISTER": [
+      "Read Flag Status Register",
+      "Flag Status Register"
+    ],
+    "READ NONVOLATILE CONFIGURATION REGISTER": [
+      "Read Nonvolatile Configuration Register",
+      "Nonvolatile Configuration Register"
+    ],
+    "READ VOLATILE CONFIGURATION REGISTER": [
+      "Read Volatile Configuration Register",
+      "Volatile Configuration Register"
+    ],
+    "READ ENHANCED VOLATILE CONFIGURATION REGISTER": [
+      "Read Enhanced Volatile Configuration Register",
+      "Enhanced Volatile Configuration Register"
+    ],
+    "READ EXTENDED ADDRESS REGISTER": [
+      "Read Extended Address Register",
+      "Extended Address Register"
+    ],
+    "READ ANY REGISTER": [
+      "Read Any Register"
+    ],
+    "WRITE STATUS REGISTER-1": [
+      "Write Status Register-1",
+      "Write Status Register",
+      "WRSR"
+    ],
+    "WRITE STATUS REGISTER-2": [
+      "Write Status Register-2"
+    ],
+    "WRITE STATUS REGISTER-3": [
+      "Write Status Register-3"
+    ],
+    "write_enable": [
+      "Write Enable",
+      "WREN"
+    ],
+    "write_disable": [
+      "Write Disable",
+      "WRDI"
+    ],
+    "write_enable_volatile": [
+      "Write Enable for Volatile",
+      "Volatile Write Enable"
+    ],
+    "CLEAR FLAG STATUS REGISTER": [
+      "Clear Flag Status Register"
+    ],
+    "CLEAR ECC STATUS REGISTER": [
+      "Clear ECC Status Register"
+    ],
+    "ENTER 4-BYTE ADDRESS MODE": [
+      "Enter 4-Byte Address Mode",
+      "Enter 4 Byte Address Mode",
+      "EN4B"
+    ],
+    "EXIT 4-BYTE ADDRESS MODE": [
+      "Exit 4-Byte Address Mode",
+      "Exit 4 Byte Address Mode",
+      "EX4B"
+    ],
+    "enable_qpi": [
+      "Enter QPI",
+      "Enable QPI",
+      "QPI Enable"
+    ],
+    "disable_qpi": [
+      "Exit QPI",
+      "Disable QPI",
+      "QPI Disable"
+    ],
+    "Set Read Parameter": [
+      "Set Read Parameters",
+      "Set Read Parameter"
+    ],
+    "Set Burst with Wrap": [
+      "Set Burst with Wrap",
+      "Burst with Wrap"
+    ],
+    "normal_read": [
+      "Read Data",
+      "Normal Read",
+      "Read",
+      "Read Memory"
+    ],
+    "fast_read": [
+      "Fast Read",
+      "Fast Read Data"
+    ],
+    "dual_output_fast_read": [
+      "Dual Output Fast Read",
+      "Dual Output Read"
+    ],
+    "dual_io_fast_read": [
+      "Dual I/O Fast Read",
+      "Dual IO Fast Read",
+      "Dual Input/Output Fast Read"
+    ],
+    "quad_output_fast_read": [
+      "Quad Output Fast Read",
+      "Quad Output Read"
+    ],
+    "quad_io_fast_read": [
+      "Quad I/O Fast Read",
+      "Quad IO Fast Read",
+      "Quad Input/Output Fast Read"
+    ],
+    "quad_Io_word_read": [
+      "Quad I/O Word Read",
+      "Quad IO Word Read"
+    ],
+    "Burst Read with Wrap": [
+      "Burst Read with Wrap",
+      "Wrap Read"
+    ],
+    "DTR FAST READ": [
+      "DTR Fast Read",
+      "DDR Fast Read"
+    ],
+    "DTR DUAL OUTPUT FAST READ": [
+      "DTR Dual Output Fast Read",
+      "DDR Dual Output Fast Read"
+    ],
+    "DTR DUAL INPUT/OUTPUT FAST\nREAD": [
+      "DTR Dual I/O Fast Read",
+      "DTR Dual Input/Output Fast Read"
+    ],
+    "DTR QUAD OUTPUT FAST READ": [
+      "DTR Quad Output Fast Read",
+      "DDR Quad Output Fast Read"
+    ],
+    "DTR QUAD INPUT/OUTPUT FAST READ": [
+      "DTR Quad I/O Fast Read",
+      "DTR Quad Input/Output Fast Read",
+      "DDR Quad I/O Fast Read"
+    ],
+    "4-BYTE READ": [
+      "4-Byte Read",
+      "4 Byte Read"
+    ],
+    "4-BYTE FAST READ": [
+      "4-Byte Fast Read",
+      "4 Byte Fast Read"
+    ],
+    "4-BYTE DUAL OUTPUT FAST READ": [
+      "4-Byte Dual Output Fast Read"
+    ],
+    "4-BYTE DUAL INPUT/OUTPUT FAST READ": [
+      "4-Byte Dual I/O Fast Read",
+      "4-Byte Dual Input/Output Fast Read"
+    ],
+    "4-BYTE QUAD OUTPUT FAST READ": [
+      "4-Byte Quad Output Fast Read"
+    ],
+    "4-BYTE QUAD INPUT/OUTPUT FAST READ": [
+      "4-Byte Quad I/O Fast Read",
+      "4-Byte Quad Input/Output Fast Read"
+    ],
+    "PAGE PROGRAM": [
+      "Page Program"
+    ],
+    "QUAD INPUT FAST PROGRAM": [
+      "Quad Input Fast Program",
+      "Quad Input Page Program"
+    ],
+    "DUAL INPUT FAST PROGRAM": [
+      "Dual Input Fast Program",
+      "Dual Input Page Program"
+    ],
+    "4-BYTE PAGE PROGRAM": [
+      "4-Byte Page Program",
+      "4 Byte Page Program"
+    ],
+    "4-BYTE QUAD INPUT FAST PROGRAM": [
+      "4-Byte Quad Input Fast Program"
+    ],
+    "sector_erase": [
+      "Sector Erase",
+      "4KB Sector Erase",
+      "Subsector Erase"
+    ],
+    "32k_block_erase": [
+      "32KB Block Erase",
+      "32 Kbyte Block Erase"
+    ],
+    "64k_block_erase": [
+      "64KB Block Erase",
+      "64 Kbyte Block Erase",
+      "Block Erase"
+    ],
+    "256K_block_erase": [
+      "256KB Block Erase",
+      "256 Kbyte Block Erase"
+    ],
+    "chip_erase": [
+      "Chip Erase",
+      "Bulk Erase"
+    ],
+    "program_erase_suspend": [
+      "Program/Erase Suspend",
+      "Suspend"
+    ],
+    "program_erase_resume": [
+      "Program/Erase Resume",
+      "Resume"
+    ],
+    "erase_suspend": [
+      "Erase Suspend"
+    ],
+    "erase_resume": [
+      "Erase Resume"
+    ],
+    "program_suspend": [
+      "Program Suspend"
+    ],
+    "program_resume": [
+      "Program Resume"
+    ],
+    "erase_security_register": [
+      "Erase Security Register",
+      "Erase OTP"
+    ],
+    "program_security_register": [
+      "Program Security Register",
+      "Program OTP"
+    ],
+    "read_security_register": [
+      "Read Security Register",
+      "Read OTP"
+    ],
+    "deep_powerdown": [
+      "Deep Power-Down",
+      "Deep Power Down"
+    ],
+    "release_from_deep_powerdown": [
+      "Release from Deep Power-Down",
+      "Release from Power-Down",
+      "Release Power-Down"
+    ],
+    "CYCLIC REDUNDANCY CHECK": [
+      "Cyclic Redundancy Check",
+      "CRC"
+    ]
+  }
+}
